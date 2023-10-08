@@ -1,0 +1,194 @@
+*{
+    margin : 0;
+    font-family: 'Montserrat', sans-serif;
+    padding : 0;
+}
+
+.sec1{
+    height:75vh;
+    width:100vw; 
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image:url('https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fHww&w=1000&q=80');
+    background-blend-mode:overlay;
+    background-color: rgba(0,0, 0, 0.5);
+    font-size:15px;
+    position:relative;
+}
+
+.div1{
+   
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    text-align:center;
+    transform:translate(-50%,-50%);
+    font-size:3em;
+}
+
+/* .bbutton{
+    background-color: aquamarine;
+    border-radius:10px;
+    border:2px solid white;
+    font-size:30px;
+    padding:10px;
+    margin-top:10px; 
+} */
+
+.kbutton,.bbutton{
+    background-color: aquamarine;
+    border-radius:10px;
+    border:2px solid white;
+    font-size:20px;
+    padding:6px;
+    margin-top:10px; 
+    cursor:pointer;
+}
+
+.sec2{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+ul li{
+    list-style:none;
+}
+.div2{
+    width:70%;
+} 
+
+.room-images{
+background:url('vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg');
+height:350px;
+width:700px;
+background-size: cover;
+}
+.room-list{
+    font-size:20px;
+}
+.sec3{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.know-more{
+    width:fit-content;
+    background-color:brown;
+    padding:5px;
+    border-radius:5px;
+    position:fixed;
+    bottom:20px;
+    right:0px;
+}
+ 
+.know-more h4{
+    color:white;
+    letter-spacing:2px;
+    cursor:pointer;
+}
+
+form{
+    border:2px solid grey;
+    width:max-content;
+    padding:20px;
+    border-radius:20px; 
+}
+
+.sec4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+
+label{
+    font-size:20px;
+    padding:10px;
+}
+
+input,select{
+        padding:5px;
+        font-size:15px;
+}
+
+.heading{
+    text-align:center;
+}
+
+@media only screen and (max-width:500px){
+    .sec1{
+            max-height:75vh;
+            max-width:100vw;
+    }
+    .div1>h1{
+        font-size:1rem;
+    }
+
+    .div1 p{
+        font-size:0.8rem;
+    }
+    p{
+        font-size:0.6rem;
+    }
+    .bbutton,.kbutton{
+        font-size:1rem;
+    }
+
+    .div2 h1{
+        font-size:1rem;
+    }
+
+    .sec3{
+        display:block;
+    }
+
+    .div3 ul{
+        font-size:0.6rem;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .room-images{
+        background:url('vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg');
+        height:30vh;
+        max-width:100vw;
+        background-size: cover;
+        margin-bottom:20px;
+        }
+
+    .heading{
+        font-size:1rem;
+    }
+
+    h1{
+        font-size:1rem;
+    }
+    .room-list>h3{
+        font-size:0.8rem;
+        margin:2px;
+        }
+    .sec4{
+            margin:0px 0px 0px;
+        }
+    form label{
+            font-size:0.8rem;
+            }
+    form input{
+        font-size:0.6rem;
+    }
+        }
+
+    
+
+
+/* @media only screen and (min-width: 501px) and (max-width:980px){
+    .div1>h1{
+        font-size:30px;
+    }
+    p{
+        font-size:20px;
+    }
+} */
