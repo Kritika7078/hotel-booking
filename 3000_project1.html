@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project3000</title>
+    <script src="https://kit.fontawesome.com/ce11399e59.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style3000.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="sec1">
+        <div class="div1">
+            <h1 style="font-size:50px; font-weight:200;">Welcome to Hotel Paraidse</h1>
+            <p style="font-size:25px;">we provide rooms at very nice price and with all the basic amenities to make your stay pleasentary</p>
+            <button class="bbutton">Book Now</button>
+        </div>
+    </section>
+    <section class="sec2">
+        <div class="div2">
+            <h1><b>ABOUT US</b></h1>
+            <p>looking for a vacation to leave behind the hustle of everyday life and indulge in world-class hospitality at exotic locations? look no futher than leading and fastest growing hotel chainof eastern india,hotel paadise. Your unwinding days with us will be the perfect blend of leisure,comfort ,convenience and class.</p>
+            <br>
+            <p>we are currently at puri,vadodra,kashmir,shimla,kerela,banaras and bathinda to give your welll deserved vacation an awesome affair</p>
+            <button class="kbutton">know more ...</button>
+        </div>
+        <div class="div3">
+            <ul>
+                <b>AMENITIES WE PROVIDE:</b>
+                <li><i class="fa-solid fa-dumbbell"></i>  GYM</li>
+                <li><i class="fa-solid fa-mug-hot"></i>  CAFATERIA</li>
+                <li><i class="fa-solid fa-person-swimming"></i>  SWIMMING POOL</li>
+                <li><i class="fa-solid fa-wifi"></i>  HIGH SPEED INTERNET ACCESS</li>
+                <li><i class="fa-solid fa-mug-saucer"></i>  COMPLEMENTARY BREAKFAST</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="heading">Room Types</h1>
+    <section class="sec3">
+        <div class="room-list">
+                <h3>single occupancy room</h3>
+                <p>this is the most basic room of the provided types with all the basic ammentities for one person.</p>
+                <h3>family room</h3>
+                <p>A living room is connected with two or more bedrooms provided in the facilities</p>
+                <h3>duplex room</h3>
+                <p>the most luxurious room of all with the most pleasentary ambiance and space with the view.</p>
+        </div>
+        <div class="room-images"></div>
+    </section>
+    <div class="know-more">
+        <h4>know more.....</h4>
+    </div>
+    <h2 class="heading">Fill the form for booking</h2>
+    <section class="sec4">
+        <form>
+            <div class="form-group">
+                <label for="name">You Full Name</label><br>
+                <input type="text" id="name" required>       
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking date">Date of booking</label><br>
+                <input type="date" id="booking date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type" >Select Room Type</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled >select...</option>
+                    <option value="single room" required>single room</option>
+                    <option value="family room" required>family room</option>
+                    <option value="duplex room" required>duplex room</option>
+                </select>
+            </div> 
+            <input type="submit" value="book">    
+        </form>
+    </section>
+</body>
+</html>
